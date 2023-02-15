@@ -12,6 +12,7 @@ module.exports = {
         filename:'bundled.js',
         path:path.resolve(__dirname, 'app')
     },
+    
     devServer: {
         watchFiles: ['./app/**/*.html'],
         static: 'app',
